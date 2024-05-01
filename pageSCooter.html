@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOOTERS</title>
+</head>
+<style>
+    #myVideo {
+  position: fixed;
+  object-fit: cover;
+  width: 100vw;
+  height: 100%;
+left: 0;
+top: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+}
+
+.image {
+  position: absolute;
+  margin: 10px;
+  margin-top: 100%;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.overlay {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.5em;
+  opacity: 0;
+  transition: opacity 0.3s;
+  overflow: hidden;
+}
+
+.image:hover .overlay {
+  opacity: 1;
+ }
+ body {
+  background-color: #f1f1f1;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.btn {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  transform: translateX(780%);
+
+
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 15px; /* Move arrow to 5px right */
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #00ff00 transparent transparent;
+  animation: arrowMove 0.5s infinite;
+}
+
+@keyframes arrowMove {
+  0% {
+    transform: translateY(-50%) translateX(0);
+  }
+  50% {
+    transform: translateY(-50%) translateX(5px);
+  }
+  100% {
+    transform: translateY(-50%) translateX(0);
+  }
+}
+</style>
+<script>
+    const button = document.querySelector('.btn');
+
+button.addEventListener('click', () => {
+  button.innerHTML = 'Subscribed <span class="arrow"></span>';
+  button.disabled = true;
+});
+</script>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="From Out Family to You.mp4" type="video/mp4">
+      </video>
+      <title>Notify Me Button</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button class="btn">Notify Me</button>
+<script src="script.js"></script>
+      <div class="image">
+        <img src="done (1).jpg" alt="Image 2">
+        <div class="overlay">
+          <p>Description for Image 2</p>
+        </div>
+      </div>
+    </div>
+      <div class="image">
+        <img src="done (1).jpg" alt="Image 2">
+        <div class="overlay">
+          <p>Description for Image 2</p>
+        </div>
+      </div>
+    </div>
+      <div class="image">
+        <img src="done (1).jpg" alt="Image 2">
+        <div class="overlay">
+          <p>Description for Image 2</p>
+        </div>
+      </div>
+    </div>
+      <div class="image">
+        <img src="done (1).jpg" alt="Image 2">
+        <div class="overlay">
+          <p>Description for Image 2</p>
+        </div>
+      </div>
+    </div>
+      <div class="image">
+        <img src="done (1).jpg" alt="Image 2">
+        <div class="overlay">
+          <p>Description for Image 2</p>
+        </div>
+      </div>
+    </div>
+
+    
+</body>
+</html>

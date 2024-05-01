@@ -1,0 +1,170 @@
+{
+    "markers": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.2437, 26.2534]
+            },
+            "properties": {
+                "name": "Charging Station 1",
+                "type": "Public"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.3489, 26.1876]
+            },
+            "properties": {
+                "name": "Charging Station 2",
+                "type": "Private"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.2015, 26.3201]
+            },
+            "properties": {
+                "name": "Charging Station 3",
+                "type": "Public"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.2794, 26.1698]
+            },
+            "properties": {
+                "name": "Charging Station 4",
+                "type": "Private"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.3926, 26.2823]
+            },
+            "properties": {
+                "name": "Charging Station 5",
+                "type": "Public"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.1712, 26.2057]
+            },
+            "properties": {
+                "name": " Hyper Charging Station 6",
+                "type": "Private"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.3218, 26.3429]
+            },
+            "properties": {
+                "name": " Hyper Charging Station 7",
+                "type": "Public"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.2387, 26.1356]
+            },
+            "properties": {
+                "name": " Hyper Charging Station 8",
+                "type": "Private"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.4265, 26.2648]
+            },
+            "properties": {
+                "name": " Hyper Charging Station 9",
+                "type": "Public"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [81.2950, 26.1872]
+            },
+            "properties": {
+                "name": " Hyper Charging Station 10",
+                "type": "Private"
+            }
+        },
+        
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [75.29728,27.01781]
+            },
+            "properties": {
+                "name": "Charging Station 1",
+                "type": "Charging"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [74.51925,27.26455]
+            },
+            "properties": {
+                "name": "Charging Station 2",
+                "type": "Charging"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [74.75877,27.06195]
+            },
+            "properties": {
+                "name": "Charging Station 3",
+                "type": "Charging"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [74.350, 27.1340]
+            },
+            "properties": {
+                "name": "Charging Station 4",
+                "type": "Charging"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [74.90280,26.97491]
+            },
+            "properties": {
+                "name": "Charging Station 5",
+                "type": "Charging"
+            }
+        }
+    ]
+}
