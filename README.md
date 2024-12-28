@@ -1,4 +1,4 @@
-In this repository lies the culmination of my web development project: The E-Vehicle site, a comprehensive platform meticulously crafted using HTML, CSS, React, Node.js, and Firebase. It's still being worked on. It's more frontend-focused for now, but I'll be implementing its complete functionality soon. I will shortly be implementing its payment gateway, authentication, and backend features.
+In this repository lies the culmination of my web development project: The E-Vehicle site, a comprehensive platform meticulously crafted using HTML, CSS, React, Node.js, and Firebase. (It's still being worked on. It's more frontend-focused for now, but I'll be implementing its complete functionality soon. I will shortly be implementing its payment gateway, authentication, and full backend features.)
 At its core, this website is more than just a digital storefront; it's a dynamic hub designed to revolutionize the e-vehicle industry.
 Serving as an all-in-one solution, it seamlessly integrates features for product showcasing, bike sales, and accessory procurement.
 
