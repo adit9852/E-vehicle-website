@@ -1,3 +1,25 @@
-*.html linguist-detectable=false
-*.css linguist-detectable=false
-*.javascript linguist-detectable=true
+# Set linguist overrides for the project
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+*.json linguist-detectable=true
+
+# Define the proportions for each technology
+# HTML: 20%
+*.html linguist-documentation=20
+
+# CSS: 20%
+*.css linguist-documentation=20
+
+# React (JavaScript): 30%
+*.js linguist-documentation=30
+*.jsx linguist-documentation=30
+
+# Node.js: 20%
+*.js linguist-documentation=20
+
+# Firebase (JSON or related): 10%
+*.json linguist-documentation=10
+*.firebaserc linguist-documentation=10
+*.firebase linguist-documentation=10
