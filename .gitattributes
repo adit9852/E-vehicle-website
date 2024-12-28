@@ -1,1 +1,1 @@
-.obsidian/** linguist-vendored
+*.html linguist-detectable=false
